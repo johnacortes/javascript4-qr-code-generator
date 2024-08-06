@@ -1,0 +1,185 @@
+body {
+  display: flex;
+  font-family: Outfit;
+  justify-content: center;
+  align-items: center;
+  background-color: #364153;
+  height: 100vh;
+}
+
+#svg-fixed5 {
+  display: none;
+  position: fixed;
+  width: 150px;
+  height: 62px;
+}
+
+#containerBarra {
+  display: flex;
+  font-family: Outfit;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 600px;
+  height: 200px;
+}
+
+#container-svg2 {
+  position: fixed;
+  top: 50%;
+  right: 100px;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+
+#container-url-button {
+  display: flex;
+  font-family: Outfit;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  background-color: #111729;
+  border-radius: 15px;
+  width: 600px;
+  height: 70px;
+  border: 3px solid #3662e3;
+}
+
+.simbolo-qr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 160px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+#input {
+  display: flex;
+  width: 400px;
+  height: 30px;
+  padding: 10;
+  margin-left: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #111729;
+  padding-left: 15px;
+  color: #f2f5f9;
+  font-size: 16px;
+}
+
+.button-qr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 58px;
+  border-radius: 15px;
+  background-color: #3662e3;
+  border: none;
+  margin-right: 6px;
+  font-size: 16px;
+  color: #f2f5f9;
+}
+
+/*----css---paso2---*/
+
+.simbolo-qr-fixed {
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 70px;
+  margin-left: 70px;
+  margin-top: 40px;
+}
+
+.container-imagenQr-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 350px;
+  height: 420px;
+}
+
+.container-QR {
+  display: flex;
+  width: 310px;
+  height: 310px;
+  justify-content: center;
+  align-items: center;
+  background-color: #3662e333;
+  border-radius: 50%;
+}
+
+#codigo {
+  width: 218px;
+  height: 218px;
+  border: 20px solid #f2f5f9;
+  border-radius: 10px;
+}
+
+.container-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 350px;
+  height: 70px;
+}
+
+#button-download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3662e3;
+  color: #f2f5f9;
+  width: 150px;
+  height: 55px;
+  border-radius: 15px;
+  border: none;
+}
+
+#button-share {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3662e3;
+  color: #f2f5f9;
+  width: 150px;
+  height: 55px;
+  border-radius: 15px;
+  border: none;
+}
+
+.display-none {
+  display: none;
+}
+
+#svg-descargar {
+  margin-bottom: 5px;
+  margin-left: 8px;
+}
+
+#svg-share {
+  width: 16px;
+  height: 16px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  #containerBarra {
+    width: 400px;
+  }
+
+  #container-url-button {
+    width: 400px;
+  }
+
+  .container-QR {
+    width: 280px;
+  }
+}
